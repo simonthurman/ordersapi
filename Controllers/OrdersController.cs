@@ -17,8 +17,8 @@ namespace ordersapi.Controllers
                 Name = "Order1", 
                 ProductDetails = new List<ProductDetail>
                 {
-                    new ProductDetail { Product = "Tomato Soup", Quantity = 2, Price = 1.50M },
-                    new ProductDetail { Product = "Bread", Quantity = 1, Price = 2.00M }
+                    new ProductDetail { Product = "Tomato Soup", Quantity = 2, Price = 2M },
+                    new ProductDetail { Product = "Nails", Quantity = 1, Price = 3.75M }
                 }
             },
             new Order 
@@ -28,7 +28,7 @@ namespace ordersapi.Controllers
                 ProductDetails = new List<ProductDetail>
                 {
                     new ProductDetail { Product = "Yo-yo", Quantity = 1, Price = 3.75M },
-                    new ProductDetail { Product = "Toy Car", Quantity = 2, Price = 5.00M }
+                    new ProductDetail { Product = "XboX", Quantity = 2, Price = 3.75M }
                 }
             },
             new Order 
@@ -37,8 +37,8 @@ namespace ordersapi.Controllers
                 Name = "Order3", 
                 ProductDetails = new List<ProductDetail>
                 {
-                    new ProductDetail { Product = "Drum", Quantity = 1, Price = 25.00M },
-                    new ProductDetail { Product = "Guitar", Quantity = 1, Price = 100.00M }
+                    new ProductDetail { Product = "Drum", Quantity = 1, Price = 3.75M },
+                    new ProductDetail { Product = "Hammer", Quantity = 1, Price = 16.99M }
                 }
             }
         };
